@@ -1,0 +1,4 @@
+daemonize
+*.o
+*~
+*.plist

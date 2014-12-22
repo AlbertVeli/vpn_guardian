@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# All Rights Reversed - No Rights Reserved
+#
+# Run daemonize to start vpnguardian.sh.
+# Put this in some system startup script
+# to start automatically at boot.
+#
+# Written by ILEV Trebla at Sweetmorn,
+# the 64th day of The Aftermath in the YOLD 3180
+
+PREFIX=/usr/local/bin
+
+$PREFIX/daemonize $PREFIX/vpnguardian.sh
