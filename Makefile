@@ -37,6 +37,7 @@ install: $(eXe)
 uninstall:
 	rm -f $(PREFIX)/$(eXe)
 	rm -f $(PREFIX)/vpnguardian.sh
+	rm -f etc/local.d/03-vpnguardian.start
 
 clean:
 	rm -f $(eXe) $(OBJS) *~
